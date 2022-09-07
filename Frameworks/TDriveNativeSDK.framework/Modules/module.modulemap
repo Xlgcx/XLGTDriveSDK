@@ -1,0 +1,6 @@
+framework module TDriveNativeSDK {
+  umbrella header "TDriveNativeSDK.h"
+
+  export *
+  module * { export * }
+}
