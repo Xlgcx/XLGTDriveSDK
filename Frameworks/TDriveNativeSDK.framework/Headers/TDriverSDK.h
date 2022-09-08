@@ -10,6 +10,7 @@
 typedef void (^TSuccessBlock) (NSDictionary * _Nullable resultDic);
 typedef void (^TFailBlock) (NSString * _Nullable error);
 typedef void (^CompletionBlock) (id _Nullable responseData);
+typedef void (^TOrderStateBlock) (int status); //1、订单开始 2、订单结束 3、订单返回
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,7 +19,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  被退出登录回调
  */
-@property (nonatomic, copy, readwrite)dispatch_block_t reLoginBlock;
+@property (nonatomic, copy, readwrite) dispatch_block_t reLoginBlock;
+
+/**
+ 订单状态回调
+ */
+@property (nonatomic, copy, readwrite) TOrderStateBlock orderStateBlock;
 
 + (TDriverSDK *)share;
 
