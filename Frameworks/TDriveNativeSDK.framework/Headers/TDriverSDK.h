@@ -72,7 +72,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  跳转订单进行中页面
  */
-- (void)jumpDrivingOrderWithEndBlock:(CompletionBlock)block;
+- (void)jumpDrivingOrder:(NSString *)saleNo;
 
 /**
  跳转试驾报告详情页面
