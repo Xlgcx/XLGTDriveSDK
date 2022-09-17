@@ -70,11 +70,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)jumpReportListPage;
 
 /**
- 继续试驾
- */
-- (void)continueOrder:(NSString *)saleNo;
-
-/**
  跳转订单进行中页面
  */
 - (void)jumpDrivingOrder:(NSString *)saleNo;
