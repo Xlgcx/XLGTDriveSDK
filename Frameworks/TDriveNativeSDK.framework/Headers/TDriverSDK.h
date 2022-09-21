@@ -32,19 +32,19 @@ NS_ASSUME_NONNULL_BEGIN
  SDK初始化
 
  @param application Application
- @param secretKey SDK密钥(统一社会信用代码/税号)
- @param apiUrl 接口请求域名
  */
-- (void)initWithApplication:(UIApplication *)application secretKey:(NSString *)secretKey apiUrl:(NSString *)apiUrl;
+- (void)initWithApplication:(UIApplication *)application;
 
 /**
  登录（同步APP登录信息）
 
  @param mobile APP登录陪驾人手机号或用户名
+ @param secretKey SDK密钥(统一社会信用代码/税号)
+ @param apiUrl 接口请求域名
  @param success 成功回调
  @param fail 失败回调
  */
-- (void)login:(NSString *)mobile successBlock:(TSuccessBlock)success failBlock:(TFailBlock)fail;
+- (void)login:(NSString *)mobile secretKey:(NSString *)secretKey apiUrl:(NSString *)apiUrl successBlock:(TSuccessBlock)success failBlock:(TFailBlock)fail;
 
 /**
  创建服务单（同步用户信息，同步试驾单信息）
