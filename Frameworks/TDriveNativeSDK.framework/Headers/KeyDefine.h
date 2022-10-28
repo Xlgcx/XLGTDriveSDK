@@ -14,6 +14,7 @@
 #define KToken @"SDK_Token"
 #define KLogSwitch @"SDK_LogSwitch"
 #define KAudioWifiKey @"audioUploadWifi"
+#define KEnterBackground @"SDK_EnterBackground"
 
 #define KLog @"log"
 #define KUrl @"flutter.url"
