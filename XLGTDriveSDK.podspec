@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XLGTDriveSDK'
-  s.version          = '1.2.6'
+  s.version          = '1.2.7'
   s.summary          = 'XLGTDriveSDK'
   s.description      = <<-DESC
 小灵狗试驾SDK

@@ -57,7 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)createOrderWithUserName:(NSString *)customerName mobile:(NSString *)mobile orderId:(NSString *)orderId carNo:(NSString *)carNo;
 
 /**
- 结束试驾单后数据回传（惠尚宝）
+ 结束试驾单后数据回传（慧商宝）
  @param saleNo 销售编号
  @param success 接口调用成功的回调并返回相关数据（startTime,endTime,mileage,reportId）
  @param fail 接口调用失败的回调

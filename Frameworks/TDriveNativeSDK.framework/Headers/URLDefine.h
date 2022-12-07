@@ -54,23 +54,29 @@ NSString *ROOT_URL(void);
 
 #define URL_ConfirmTryDriveDetails @"drive-app/tryDrive/confirmTryDriveDetails" //创建试驾单详情
 
-///SDK初始化的url
+// SDK初始化的url
 #define SDK_Init_URL @"drive-app/carOperation/initialSDK"
 
-///登录url
+// 登录url
 #define SDK_Login_URL @"drive-app/carOperation/login" //登录
 
-///创建试驾单URL
+// 创建试驾单URL
 #define SDK_CreateOrder_URL @"drive-app/tryDrive/startTryDrive"
 
-///供慧商宝结束试驾单时调用
+// 供慧商宝结束试驾单时调用
 #define SDK_ServiceOrderForSDK_URL @"drive-app/tryDrive/getServiceOrderForSDK/"
 
-///查询当月试驾统计信息，供慧商宝app调用"
-#define SDK_MonthlySummary_URL @"drive-app/monthlySummary/getCurrentMonthlySummary"//
+// 查询当月试驾统计信息，供慧商宝app调用
+#define SDK_MonthlySummary_URL @"drive-app/monthlySummary/getCurrentMonthlySummary"
 
-///根据用户和设备查询订单
+// 根据用户和设备查询订单
 #define SDK_CheckOrderUserAndPhone_URL @"drive-app/tryDrive/checkOrderUserAndPhone"
+
+// 查询哪吒车辆状态
+#define SDK_QueryVehicleStatus_URL @"drive-app/tryDrive/queryVehicleStatus"
+
+// 查询哪吒车辆状态开关
+#define SDK_QueryStatusOnOrderStart_URL @"drive-app/tryDrive/queryStatusOnOrderStart"
 
 @end
 
