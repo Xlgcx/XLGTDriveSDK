@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XLGTDriveSDK'
-  s.version          = '1.3.2'
+  s.version          = '1.3.3'
   s.summary          = 'XLGTDriveSDK'
   s.description      = <<-DESC
 小灵狗试驾SDK
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # #是否支持模拟器 pod repo lint/push 命令添加 --skip-import-validation 参数
   s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
   s.platform         = :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
   s.vendored_frameworks = 'Frameworks/*.framework'
 
 end

@@ -6,6 +6,6 @@ framework module audioplayers {
 }
 
 module audioplayers.Swift {
-    header "audioplayers-Swift.h"
-    requires objc
+  header "audioplayers-Swift.h"
+  requires objc
 }
